@@ -1,0 +1,25 @@
+{
+    "name": "migue/backend",
+    "autoload": {
+        "psr-4": {
+            "Migue\\Backend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "migue",
+            "email": "miguelangelosilvacarvalho96@gmail.com"
+        }
+    ],
+    "require": {
+        "whapi/whatsapp-api-sdk-php": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Whapi-Cloud/whatsapp-api-sdk-php"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
